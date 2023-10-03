@@ -1,4 +1,4 @@
-const pixels = Array.from(document.querySelectorAll('rect'));
+const pixels = Array.from(document.querySelectorAll('path'));
 
 // Workaround for a Wokwi sometimes missing the first message
 let listener = setInterval(() => {
